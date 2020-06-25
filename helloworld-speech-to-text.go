@@ -37,7 +37,7 @@ func main() {
                         //Encoding:        speechpb.RecognitionConfig_LINEAR16,
                         // wavファイルではヘッダに入っているのでコメントアウト
                         //SampleRateHertz: 16000,
-                        // 必須パラメーた
+                        // 必須パラメータ
                         LanguageCode:    "en-US",
                 },
                 Audio: &speechpb.RecognitionAudio{
